@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+table.borde{
+	border-style:solid;
+	border-width:5px;
+	border-color:green;
+}
+
+caption{
+	color:green;
+}
+
+th.a{
+	background-color:yellow;
+}
+
+th.b{
+	background-color:green;
+}
+
+th.c{
+	background-color:blue;
+}
+
+th.d{
+	background-color:white;
+}
+
+td.a{
+	background-color:pink;
+}
+
+td.b{
+	background-color:red;
+}
+
+td.c{
+	background-color:white;	
+}
+
+li{
+	display:block;
+}
+
+h1,h2, h3{
+	color:grey;
+	text-align:center;
+}
+
+p{
+	color:green;
+
+}
+
+.marked{
+	background-color:red;
+}
+
+.marked p{
+	background-color:blue;
+}
+
+img.a{
+	float:left;
+}
+
+img.b{
+	float:right;
+}
+
+section.a{
+	display:inline-block;
+	margin:50px 0px;
+	width:300px;
+	height:200px;
+}
+
+
+
