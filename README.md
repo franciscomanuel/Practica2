@@ -59,7 +59,7 @@ El siguiente paso es reiniciar apache:
 Si nos metemos en localhost podemos ver nuestra aplicación funcionando "a medias" ya que no nos aparece ni el fondo 
 ni las imagenes. Para solucionar esto debemos de darle permisos a la carpeta /home/jaulas/saucy/var/www.
 
-	sudo chroot -R 755 /home/jaulas/saucy/var/www
+	sudo chmod -R 755 /home/jaulas/saucy/var/www
 	
 Reiniciamos de nuevo apache:
 
